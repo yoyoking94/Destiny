@@ -24,4 +24,15 @@ const navSlide = () => {
     });
 }
 
+const overlay = () => {
+    const overlayBtn = document.querySelector('.btnOverlay');
+    const overlayLinks = document.querySelector('.overlayLinks');
+
+
+    overlayBtn.addEventListener('click', () => {
+        overlayLinks.classList.toggle("d-none")
+    });
+}
+
 navSlide();
+overlay();

@@ -33,7 +33,7 @@ nav {
   font-size: 14px;
 }
 
-.nav-links a:hover{
+.nav-links a:hover {
   color: red;
 }
 
@@ -113,4 +113,51 @@ nav {
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
-.red{color: red !important;}
+.red {
+  color: red !important;
+}
+
+
+/* button overlay */
+
+.btnOverlay {
+  border-radius: 50px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+.btnOverlay img {
+  width: 50px;
+}
+
+.d-none {
+  display: none;
+}
+
+.overlayLinks {
+  position: absolute;
+  top: 40px;
+  text-align: center;
+  background-color: white;
+  border-radius: 0 50px 50px 50px;
+}
+
+.overlayLinks li {
+  list-style: none;
+  padding: 5%;
+  margin: 2% 0;
+  width: 100%;
+  height: 100%;
+}
+
+.overlayLinks li a {
+  color: black;
+  text-decoration: none;
+}
+
+.overlayLinks li a:hover {
+  color: red;
+}

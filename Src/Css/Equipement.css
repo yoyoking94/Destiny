@@ -11,24 +11,13 @@ header {
 }
 
 body {
-    background-color: #333333;
-    color: white;
+    background-color: #c4c4c4;
 }
 
 /* --- MAIN --- */
 main {
     width: 100vw;
-    height: 100vh;
-}
-
-#inventory {
-    background: url('../../Assets/Images/yoyoking94.png') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
 }
 
 #icon {
@@ -55,9 +44,11 @@ main {
 
 #mainText div:hover{
     background-color: #4b3d3d;
-    padding: 1%;
+    color: white;
+    padding: 2%;
+    width: 100%;
     border-radius: 10px;
-    transition: 1s ease-in-out;
+    transition: .5s ease-in-out;
 }
 
 #mainText div span {
@@ -79,4 +70,8 @@ main {
         width: 100%;
         margin: 5% 0;
     }
+}
+
+#clock{
+    justify-content: center !important;
 }
