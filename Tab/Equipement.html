@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipement</title>
+
+    <script src="https://kit.fontawesome.com/2c9651bccf.js" crossorigin="anonymous"></script>
+
+    <!-- Icon -->
+    <link rel="icon" type="image/png" href="../Assets/Images/DestinyIcon.png" />
+    <!-- Links -->
+    <link rel="stylesheet" href="../Src/Css/style.css">
+    <link rel="stylesheet" href="../Src/Css/nav.css">
+    <link rel="stylesheet" href="../Src/Css/Equipement.css">
+    <!-- Js -->
+    <script src="../Src/Js/nav.js" defer></script>
+    <script src="../Src/Js/currentTime.js" defer></script>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <h4>Destiny</h4>
+        </div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Accueil</a></li>
+            <li><a href="./Doctrine.html">Doctrine</a></li>
+            <li><a href="./Equipement.html" class="red">Equipement</a></li>
+            <li><a href="./Histoire.html">Histoire</a></li>
+            <li><a href="./Quetes.html">Quetes</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <main>
+        <section id="inventory">
+        </section>
+        <section id="mainText">
+            <h3>Armes et armures</h3>
+            <div>
+                <p><span>Les types d'armes et les emplacements</span><br><br>
+
+                    Vous pouvez équiper 3 armes simultanément dans Destiny : une basique, une arme cinétique qui sera
+                    insufflé d'un élément et causera donc des dégâts liés à ce dernier et enfin une arme dite
+                    «puissante»
+                    elle aussi causant des dégâts élémentaires. Pour mieux comprendre comment sont réparties les armes,
+                    voici un petit tableau qui devrait vous aider à y voir plus clair.<br><br>
+
+                    A noter que les munitions d'armes puissantes sur l'épreuve sont placés à des endroits stratégiques
+                    et
+                    leur apparition est soumise à un timer.
+                </p>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <td>Catégorie</td>
+                            <td>Armes</td>
+                            <td>Munitions</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Arme Principale</td>
+                            <td>Pistolet, revolver, pistolet mitrailleur, fusil d'éclaireur, fusil automatique, fusil à
+                                rayon</td>
+                            <td>Caisses blanches</td>
+                        </tr>
+                        <tr>
+                            <td>Arme cinétique</td>
+                            <td>Mêmes types d'armes que dans la catégorie principale.</td>
+                            <td>Caisses vertes</td>
+                        </tr>
+                        <tr>
+                            <td>Arme puissante</td>
+                            <td>Sniper, lance-roquettes, lance grenades, fusil à fusion, épée, fusil à pompe</td>
+                            <td>Caisses violettes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <p><span>Les éléments et les boucliers</span><br><br>
+                    Vous avez sans doute remarquer que certains ennemis disposent d'un bouclier coloré, indiquant à quel
+                    élément ce dernier est faible. Pour que ce soit bien clair pour tout le monde, nous vous proposons
+                    là
+                    aussi un petit tableau très simple à comprendre.</p>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <td>Catégorie</td>
+                            <td>Nom</td>
+                            <td>Efficace contre</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="icon"><img src="../Assets/Images/Arc_damage_icon.png" alt="Arc damage icon"></td>
+                            <td>Cryo-électrique</td>
+                            <td>Bouclier bleu</td>
+                        </tr>
+                        <tr>
+                            <td id="icon"><img src="../Assets/Images/Fire_damage_icon.png" alt="Fire damage icon"></td>
+                            <td>Solaire</td>
+                            <td>Bouclier rouge</td>
+                        </tr>
+                        <tr>
+                            <td id="icon"><img src="../Assets/Images/Void_damage_icon.png" alt="Void damage icon"></td>
+                            <td>Abysse</td>
+                            <td>Bouclier violet</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <img src="../Assets/Images/Gantlet.jpg" alt="Gantlet">
+                <p><span>Quand le stuff influe sur les compétences</span><br><br>
+                    Vos armures et vos armes méritent parfois que vous modifiez quelques paramètres dans la construction
+                    de
+                    votre personnage. C'est à la convenance de chacun évidemment, mais certains passifs d'armes et
+                    d'armures
+                    sont beaucoup trop avantageux pour ne pas être pris en compte, notamment tout ce qui touche aux
+                    réductions de cooldown de vos techniques de mêlée ou de vos grenades.</p>
+            </div>
+            <div>
+                <p><span>A chaque situation son build</span><br><br>
+                    Selon l'activité en cours, il est bon de choisir un set de compétences qui sied à merveille avec la
+                    situation. Là encore, bidouillez un peu les compétences de chaque doctrine pour voir ce qui vous
+                    convient le mieux, mais se construire un build PVE et un build PVP sont de bonnes idées pour
+                    commencer à
+                    maitriser l'intégralité de sa classe. Par exemple, la téléportation de l'arcaniste voie des abysses
+                    n'est pas très utile en PVE, mais dans l'Epreuve, elle fait un malheur car elle permet d'esquiver et
+                    de
+                    surprendre ses adversaires.</p>
+                <img src="../Assets/Images/Ability.jpg" alt="Gantlet">
+            </div>
+            <div>
+                <img src="../Assets/Images/Mod.jpg" alt="">
+                <p><span>Mods d'armes et d'armures</span><br><br>
+                    Il existe plusieurs façons d'obtenir des mods : soit vous allez dépenser quelques lumens chez
+                    l'armurier, soit vous augmentez votre réputation chez lui, puisque les engrammes qu'il donne
+                    contiennent
+                    généralement quelques modificateurs. Le dernier moyen est de claquer ses engrammes étincelants, qui
+                    en
+                    contiennent forcément quelques-uns.<br><br>
+
+                    Comme leur nom l'indique, les mods vont permettre de spécialiser encore un peu plus vos armes
+                    légendaires et exotiques, en y appliquant un nouvel effet passif. Pour voir votre collection de
+                    mods,
+                    ouvrez votre inventaire, il s'agira du deuxième onglet, vous pourrez alors remarquer que tous les
+                    mods
+                    ne vont pas avec toutes les pièces d'équipement. Et tant que nous sommes dans l'inventaire,
+                    profitons-en
+                    pour vous prévenir, les démanteler ne sert absolument à rien.</p>
+            </div>
+            <div>
+                <p>Afin de les équiper, prenez votre pièce d'équipement concerné puis appuyé sur la touche «détails» :
+                    vous
+                    devriez désormais avoir tous les détails de votre arme ou armure : attributs, mods, revêtements...
+                    Les
+                    attributs sont des paramètres changeant les réglages de votre arme, quant aux revêtements, nous y
+                    reviendrons un peu plus tard. Mais pour les fameux mods, il suffit de se diriger vers la dernière
+                    case
+                    (normalement vide) des détails de votre arme, puis de sélectionner celui de votre choix (cela a un
+                    coût
+                    en lumen).<br><br>
+
+                    On vous recommande garder vos mods légendaires bien au chaud pour des équipements que vous êtes sûrs
+                    d'utiliser longtemps, ces derniers sont des consommables associés aux armes.</p>
+                <img src="../Assets/Images/modArme.jpg" alt="">
+            </div>
+            <div>
+                <img src="../Assets/Images/infusion.jpg" alt="">
+                <p><span>L'infusion :</span><br><br>
+                    Une autre des fonctionnalités des détails de vos équipements, l'infusion permet de sacrifier une
+                    arme au
+                    niveau de lumière plus puissant que celle qui est concernée. Imaginons que l'arme que vous avez
+                    d'équipée fait partie de vos favorites, mais que son niveau de lumière commence à laisser à désirer,
+                    vous pouvez lui offrir une petite cure de jouvence grâce à cette méthode.</p>
+            </div>
+            <div>
+                <p><span>Le cas des exotiques</span><br><br>
+                    Comme dans Destiny premier du nom, il n'est possible d'équiper que deux exotiques à la fois : une
+                    armre
+                    et une pièce d'armure. Il s'agit évidemment d'équipements surpuissants et sont un peu la principale
+                    source de joie lors des sessions de farm intensives. Pour en obtenir, plusieurs solutions : soit
+                    vous
+                    avez de la chance, soit vous accomplissez les quêtes à objectif qui leurs sont dédiées. Cela peut
+                    être
+                    une énigme, ou des requêtes plus classiques, même si cela vous demandera un minimum d'efforts à
+                    chaque
+                    fois. Quoiqu'il en soit, si vous voyez des objets étranges dans votre inventaire d'arme que vous ne
+                    pouvez équiper, jetez-y un œil.</p>
+                <img src="../Assets/Images/exotique.jpg" alt="">
+            </div>
+            <div>
+                <img src="../Assets/Images/rare.jpg" alt="">
+                <p><span>Savoir se séparer de ses violets / jaunes</span><br><br>
+                    Avoir son personnage rempli d'équipements violets et jaunes apporte un certain sentiment
+                    d'accomplissement, mais c'est loin d'être une finalité : il faut savoir se séparer de ses
+                    légendaires et
+                    de ses exotiques, parfois pour repasser sur du rare plus puissant. Le démantèlement de ces objets
+                    est de
+                    plus très lucratif, puisqu'ils vous apporteront 3 pièces d'armurier à échanger à la Tour, mais aussi
+                    des
+                    cristaux qui sont la monnaie d'échange principale chez Xur, le marchant d'objets rares.</p>
+            </div>
+            <div>
+                <p><span>La bonne coque pour les bonnes armes</span><br><br>
+                    Les coques de spectre sont une partie de l'équipement à ne pas négliger et certaines d'entre elles
+                    peuvent fournir des bonus très utiles, comme des données télémétriques enregistrées lorsque vous
+                    faites
+                    des frags avec certains types d'armes : celles-ci seront ensuite à échanger auprès de l'armurier
+                    afin
+                    d'augmenter sa réputation.</p>
+                <img src="../Assets/Images/phantomShell.jpg" alt="">
+            </div>
+            <div>
+                <img src="../Assets/Images/modWeapon.jpg" alt="">
+                <p><span>Pimpez votre arsenal</span><br><br>
+                    Ah les fameux revêtements qui font tant polémique, puisque associés à des micro-transactions (tout
+                    comme
+                    les mods d'ailleurs). Si vous souhaitez en obtenir pour customiser votre équipement, vous allez
+                    devoir
+                    augmenter vos niveaux au delà du lvl20 pour obtenir des engrammes brillants, ou, donc, acheter cette
+                    fameuse monnaie in-game. Chaque revêtement ne peut s'appliquer qu'une fois et que sur une unique
+                    pièce
+                    d'équipement à la fois. Enfin, le prix en lumen pour appliquer les skins dépend de la rareté de ses
+                    derniers, ce qui peut faire voler les prix jusqu'à plusieurs milliers de lumen pour une application.
+                </p>
+            </div>
+        </section>
+        <div id="clock" onload="time()"></div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,328 @@
+/* --- HEADER --- */
+
+header {
+    background: url('../../Assets/Images/DoctrineBg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.card {
+    padding-top: 5%;
+    background-color: transparent;
+}
+
+.text {
+    background-color: #c4c4c4;
+    border-radius: 25px;
+    text-align: center;
+    width: 70%;
+    padding: 5%;
+    margin: 5% auto;
+}
+
+.button {
+    text-align: center;
+}
+
+.button img {
+    width: 10%;
+    height: auto;
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 1200px) {
+    .button img {
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .button img {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .button img {
+        width: 50%;
+    }
+}
+
+
+/* --- MAIN --- */
+section {
+    height: 100vh;
+    width: 100vw;
+}
+
+/* --- Arcanist --- */
+.arcaniste {
+    background: url('../../Assets/Images/Arcaniste.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.arcaniste-solaire {
+    background: url('../../Assets/Images/Arcaniste-Solaire.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.arcaniste-abyssale {
+    background: url('../../Assets/Images/Arcaniste-Abyssale.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.arcaniste-cryo {
+    background: url('../../Assets/Images/Arcaniste-Cryo.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.post-it {
+    font-size: 18px;
+}
+
+.post-it-title {
+    margin: 5%;
+}
+
+.arcaniste .post-it {
+    color: white;
+    width: 30%;
+    height: auto;
+    position: absolute;
+    top: 50vh;
+    left: 80vw;
+    transform: translate(-50%, -50%);
+    padding: 2%;
+}
+
+.arcaniste-solaire .post-it {
+    color: white;
+    width: 30%;
+    height: auto;
+    position: relative;
+    top: 50vh;
+    left: 20vw;
+    transform: translate(-50%, -50%);
+    padding: 2%;
+}
+
+.arcaniste-abyssale .post-it {
+    color: white;
+    width: 30%;
+    height: auto;
+    position: relative;
+    top: 50vh;
+    left: 80vw;
+    transform: translate(-50%, -50%);
+    padding: 2%;
+}
+
+.arcaniste-cryo .post-it {
+    color: white;
+    width: 30%;
+    height: auto;
+    position: relative;
+    top: 50vh;
+    left: 20vw;
+    transform: translate(-50%, -50%);
+    padding: 2%;
+}
+
+/* --- Chasseur --- */
+.chasseur {
+    background: url('../../Assets/Images/Chasseur.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.chasseur-solaire {
+    background: url('../../Assets/Images/Chasseur-Solaire.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.chasseur-abyssale {
+    background: url('../../Assets/Images/Chasseur-Abyssale.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.chasseur-cryo {
+    background: url('../../Assets/Images/Chasseur-Cryo.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.chasseur .post-it {
+    color: white;
+    width: 30%;
+    height: auto;
+    position: absolute;
+    top: 50vh;
+    left: 80vw;
+    transform: translate(-50%, -50%);
+    padding: 2%;
+}
+
+.chasseur-solaire .post-it {
+    color: white;
+    width: 30%;
+    height: auto;
+    position: relative;
+    top: 50vh;
+    left: 80vw;
+    transform: translate(-50%, -50%);
+    padding: 2%;
+}
+
+.chasseur-abyssale .post-it {
+    color: white;
+    width: 30%;
+    height: auto;
+    position: relative;
+    top: 50vh;
+    left: 80vw;
+    transform: translate(-50%, -50%);
+    padding: 2%;
+}
+
+.chasseur-cryo .post-it {
+    color: white;
+    width: 30%;
+    height: auto;
+    position: relative;
+    top: 50vh;
+    left: 20vw;
+    transform: translate(-50%, -50%);
+    padding: 2%;
+}
+
+/* --- Titan --- */
+.titan {
+    background: url('../../Assets/Images/Titan.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.titan-solaire {
+    background: url('../../Assets/Images/Titan-Solaire.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.titan-abyssale {
+    background: url('../../Assets/Images/Titan-Abyssale.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.titan-cryo {
+    background: url('../../Assets/Images/Titan-Cryo.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.titan .post-it {
+    color: white;
+    width: 30%;
+    height: auto;
+    position: absolute;
+    top: 50vh;
+    left: 80vw;
+    transform: translate(-50%, -50%);
+    padding: 2%;
+}
+
+.titan-solaire .post-it {
+    color: white;
+    width: 30%;
+    height: auto;
+    position: relative;
+    top: 50vh;
+    left: 15vw;
+    transform: translate(-50%, -50%);
+    padding: 2%;
+}
+
+.titan-solaire .post-it-main {
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+
+.titan-abyssale .post-it {
+    color: white;
+    width: 30%;
+    height: auto;
+    position: relative;
+    top: 50vh;
+    left: 80vw;
+    transform: translate(-50%, -50%);
+    padding: 2%;
+}
+
+.titan-cryo .post-it {
+    color: white;
+    width: 30%;
+    height: auto;
+    position: relative;
+    top: 50vh;
+    left: 80vw;
+    transform: translate(-50%, -50%);
+    padding: 2%;
+}
+
+/* --- Button Doctrine --- */
+
+.buttonClasses {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonClasses span {
+    font-size: 50px;
+}
+
+.buttonClasses a {
+    margin: 2%;
+}
+
+.buttonClasses img{
+    border-radius: 50px;
+}

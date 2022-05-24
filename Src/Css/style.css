@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent !important;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(80, 27, 80);
+    border-radius: 10px;
+}
+
+/* --- BODY --- */
+
+body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-family: 'Fira code', Courier, monospace;
+}

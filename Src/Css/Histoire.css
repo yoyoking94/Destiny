@@ -1,0 +1,89 @@
+body {
+    background: url('../../Assets/Images/Guardian.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.destiny, .destiny2 {
+    width: 100vw;
+    height: 100vh;
+}
+
+.slider {
+    position: relative;
+    top: 45vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+
+    width: 80%;
+    height: 70%;
+
+    background-color: #c4c4d4;
+    border-radius: 40px;
+}
+
+.slider .slide, .slide2 {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(0% at 0 50%);
+}
+
+.slider .slide.active, .slide2.active {
+    clip-path: circle(150% at 0 50%);
+    transition: 2s;
+    transition-property: clip-path;
+}
+
+.slider .slide, .slide2 .info {
+    padding: 20px;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.slider .navigation {
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slider .navigation .btn, .btn2 {
+    background-color: white;
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider .navigation .btn.active, .btn2.active {
+    background-color: #6c6c6c;
+}
+
+@media (max-width: 700px) {
+    .slider{
+        overflow: scroll;
+    }
+
+    .slider .slide, .slide2 .info {
+        padding: 20px;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
+    }
+}

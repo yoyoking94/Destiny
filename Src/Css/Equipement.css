@@ -1,0 +1,82 @@
+/* --- HEADER --- */
+
+header {
+    background: url('../../Assets/Images/Guardian.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    background-color: #333333;
+    color: white;
+}
+
+/* --- MAIN --- */
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+#inventory {
+    background: url('../../Assets/Images/yoyoking94.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+#icon {
+    text-align: center;
+    width: 5%;
+}
+
+#mainText {
+    width: 80%;
+    margin: 5% auto;
+}
+
+#mainText h3 {
+    text-align: center;
+    margin: 5% 0;
+}
+
+#mainText div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+#mainText div:hover{
+    background-color: #4b3d3d;
+    padding: 1%;
+    border-radius: 10px;
+    transition: 1s ease-in-out;
+}
+
+#mainText div span {
+    margin-left: 10%;
+}
+
+#mainText div p, img, table {
+    width: 40%;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    #mainText div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mainText div p, img, table {
+        width: 100%;
+        margin: 5% 0;
+    }
+}
