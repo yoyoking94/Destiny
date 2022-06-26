@@ -1,5 +1,4 @@
 /* --- HEADER --- */
-
 header {
     background: url('../../Assets/Images/homeBg.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -44,7 +43,7 @@ header a img {
 main {
     height: 100%;
     width: 100%;
-    background: #c4c4c4
+    background: #836e9e
 }
 
 .container {
@@ -75,10 +74,9 @@ main {
     display: grid;
     place-items: center;
 
-    background-color: #c4c4c4;
+    color: white;
+    background-color: #333333;
     border-radius: 40px;
-    
-    color: black;
 }
 
 #mainText p {
@@ -87,14 +85,13 @@ main {
 }
 
 #mainText a {
-    
-    color: black;
+    color: white;
     text-align: center;
     text-decoration: none;
 
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 100px;
-    box-shadow: #333 4px 4px 0px;
+    box-shadow: #fff 4px 4px 0px;
     transition: transform 100ms, box-shadow 100ms;
     padding: 3% 6%;
 }
@@ -105,6 +102,7 @@ main {
 }
 
 #mainText a:active {
+    border: none;
     transform: translateY(4px) translateX(4px);
     box-shadow: #333 0px 0px 0px;
 }

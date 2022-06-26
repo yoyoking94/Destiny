@@ -2,7 +2,8 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 8vh;
+  height: 100%;
+  padding: 1% 0;
 
   background-color: #333;
   color: white;
@@ -64,6 +65,7 @@ nav {
 
   .nav-links {
     position: absolute;
+    z-index: 1;
     right: 0px;
     top: 8vh;
     height: 92vh;

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Equipement</title>
 
     <script src="https://kit.fontawesome.com/2c9651bccf.js" crossorigin="anonymous"></script>
@@ -17,8 +17,8 @@
     <link rel="stylesheet" href="../Src/Css/Equipement.css">
     <!-- Js -->
     <script src="../Src/Js/nav.js" defer></script>
+    <script src="../Src/Js/app.js" defer></script>
     <script src="../Src/Js/currentTime.js" defer></script>
-    <script src="../Src/Js/Destiny.js" defer></script>
 </head>
 
 <body>
@@ -69,7 +69,7 @@
                 et
                 leur apparition est soumise à un timer.
             </p>
-            <table border="1">
+            <table>
                 <thead>
                     <tr>
                         <td>Catégorie</td>
@@ -103,7 +103,7 @@
                 élément ce dernier est faible. Pour que ce soit bien clair pour tout le monde, nous vous proposons
                 là
                 aussi un petit tableau très simple à comprendre.</p>
-            <table border="1">
+            <table>
                 <thead>
                     <tr>
                         <td>Catégorie</td>
@@ -249,6 +249,9 @@
         </div>
         <div id="clock" onload="time()"></div>
     </main>
+    <span onclick="backToTop()" class="mouse">
+        <span class="mouseWheel"></span>
+    </span>
     <footer>
         <div>
             <span>Copyright 2021 &copy; Yovish MOONESAMY</span>
@@ -260,8 +263,7 @@
             <a href="https://github.com/yoyoking94"><i class="fab fa-github-square"></i></a>
         </div>
         <div>
-            <li><a id="en" href="#">Privacy Policy</a></li>
-            <li><a id="fr" href="#">Politique de confidentialité</a></li>
+            <li><a href="#">Politique de confidentialité</a></li>
         </div>
     </footer>
 </body>

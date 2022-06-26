@@ -13,13 +13,13 @@
     <link rel="stylesheet" href="./Src/Css/nav.css">
     <link rel="stylesheet" href="./Src/Css/Destiny.css">
     <!-- Js -->
-    <script src="./Src/Js/Destiny.js" defer></script>
+    <script src="./Src/Js/app.js" defer></script>
     <!-- ========== Font Awesome 5.15.4 ========== -->
     <script src="https://kit.fontawesome.com/2c9651bccf.js" crossorigin="anonymous"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 </head>
 
-<body>
+<body id="top">
     <header>
         <a id="destinyHomeButton" href="#main">
             <img src="./Assets/Images/DestinyLogo.png" alt="Logo destiny" />
@@ -46,7 +46,9 @@
             </div>
         </div>
     </main>
-    <aside></aside>
+    <span onclick="backToTop()" class="mouse">
+        <span class="mouseWheel"></span>
+    </span>
     <footer>
         <div>
             <span>Copyright 2021 &copy; Yovish MOONESAMY</span>
@@ -58,8 +60,7 @@
             <a href="https://github.com/yoyoking94"><i class="fab fa-github-square"></i></a>
         </div>
         <div>
-            <li><a id="en" href="#">Privacy Policy</a></li>
-            <li><a id="fr" href="#">Politique de confidentialité</a></li>
+            <li><a href="#">Politique de confidentialité</a></li>
         </div>
     </footer>
 </body>

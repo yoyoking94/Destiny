@@ -4,7 +4,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
 }
 
@@ -72,11 +72,14 @@ body {
     background-color: #6c6c6c;
 }
 
-@media (max-width: 700px) {
+
+@media (max-width: 1000px) {
     .slider{
         overflow: scroll;
     }
+}
 
+@media (max-width: 700px) {
     .slider .slide, .slide2 .info {
         padding: 20px;
         height: 100%;

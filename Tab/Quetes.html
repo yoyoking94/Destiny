@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +14,10 @@
     <link rel="stylesheet" href="../Src/Css/Quetes.css">
     <!-- Js -->
     <script src="../Src/Js/nav.js" defer></script>
+    <script src="../Src/Js/quetes.js" defer></script>
+    <script src="https://kit.fontawesome.com/2c9651bccf.js" crossorigin="anonymous" defer></script>
 </head>
+
 <body>
     <header>
         <nav>
@@ -47,7 +51,151 @@
             </div>
         </nav>
     </header>
-    <main></main>
+    <main>
+        <div class="quetes">
+            <select name="list" id="list">
+                <option value=""> ----- Select ----- </option>
+                <option value="Aventure">Aventure</option>
+                <option value="Defis">Défis</option>
+                <option value="Epreuve">Epreuve</option>
+                <option value="Assauts">Assauts</option>
+                <option value="Patrouilles">Patrouilles</option>
+                <option value="BannièreDeFer">Bannière de fer</option>
+                <option value="SecteurOublie">Secteur oublié</option>
+                <option value="NuitNoir">Nuit noir</option>
+                <option value="Raid">Raid</option>
+            </select>
+            <div class="container">
+                <div class="data" id="Aventure">Représentées sur la carte par un bouclier frappé d'une épée, les
+                    Aventures sont des petites missions optionnelles. Elles racontent une petite histoire et vous
+                    permettent d'en savoir plus sur le Lore ou certains personnages. Elles durent grosso modo 15 à 20
+                    minutes et sont, de ce fait, pratiques si vous savez que votre session de jeu sera courte. Chaque
+                    Aventure dispose d'un niveau de puissance recommandé, mais cela reste d'assez bas niveau puisqu'une
+                    fois le mode Histoire terminé, votre puissance vous permettra d'aisément clôturer toutes les
+                    aventures. N'hésitez d'ailleurs pas à en faire pendant votre leveling.<br><br>
+
+                    Chaque planète dispose de ses propres aventures qui se débloquent petit à petit au fil de votre
+                    avancée dans la campagne contre Ghaul et sa Légion Rouge. Il en existe une trentaine en tout, près
+                    de la moitié étant présentes dans la Zone Morte Européenne. On en dénombre ensuite 4 sur Titan, 7
+                    sur Nessos, 5 sur Io et 3 sur Mercure.<br><br>
+
+                    Les récompenses sont multiples, avec un peu d'équipement vert/bleu, ainsi que de l'expérience et des
+                    jetons pour augmenter votre réputation envers la faction de la zone. Une fois toutes les Aventures
+                    d'une zone complétées par votre personnage, le marchand du coin vous permettra de les refaire.</div>
+                <div class="data" id="Defis">Les défis sont des activités journalières à effectuer sur Destiny 2. Chaque
+                    planète dispose de ses propres défis, remis à zéro chaque matin. En regardant vos Jalons, vous
+                    verrez plusieurs objectifs à remplir, qui peuvent consister à faire des choses comme:<br><br>
+                    <ul>
+                        <li>Tuer 75 déchus</li>
+                        <li>Récupérer des objets spécifiques</li>
+                        <li>Tuer 5 ennemis plus costauds dans les rangs des Vex</li>
+                        <li>Tuer des ennemis dans une zone spécifique de la carte</li>
+                        <li>Retrouver un Secteur Oublié</li>
+                        <li>Compléter un événement public</li>
+                        <li>Effectuer trois patrouilles</li>
+                    </ul><br><br>
+                    Comme vous le voyez, les activités peuvent être très diverses. Les défis sont accessibles assez tôt
+                    en jeu, vous pouvez donc en profiter pour gagner de l'XP et quelques récompenses, prenant la forme
+                    d'équipement ou de jetons liés à la faction de la planète. Pas besoin d'aller voir un PNJ pour
+                    démarrer les défis, regardez simplement les Jalons actuels pour voir ce que vous avez à faire.
+                </div>
+                <div class="data" id="Epreuve">
+                    Accessible à partir du moment où vous découvrez votre domaine, le mode
+                    PvP de Destiny 2 est un mode de jeu à part entière. Certains y passeront des heures, tandis que
+                    d'autres n'y toucheront que ponctuellement, quand le jeu les y obligera... Le PvP se joue à 4 contre
+                    4 et propose plusieurs modes:<br><br>
+                    <ul>
+                        <li><b>Clash</b> : Du match à mort classique. La première équipe qui atteint les 75 kills a
+                            gagné. : Du match à mort classique. La première équipe qui atteint les 75 kills a gagné.
+                        </li>
+                        <li><b>Contrôle</b> : Vous devez capturer et maintenir des points de la carte en votre
+                            possession.</li>
+                        <li><b>Countdown</b> : Une équipe défend, l'autre attaque, cette dernière ayant un objectif bien
+                            précis, à savoir protéger une bombe. Ensuite, on inverse les rôles.</li>
+                        <li><b>Suprématie</b> : Tuez les Gardiens adverses et récupérez les insignes qu'ils déposent à
+                            leur mort. Cela fait gagner des points à votre équipe. Celle qui a le plus de points gagne.
+                        </li>
+                        <li><b>Survie</b> : Chaque équipe dispose d'un certain nombre de vies, et les joueurs ne peuvent
+                            donc être ressuscités qu'un nombre de fois limité.</li>
+                    </ul><br><br>
+                </div>
+                <div class="data" id="Assauts">
+                    Ce sont les donjons de Destiny 2. C'est du PvE à trois joueurs et vous pouvez vous mettre en file
+                    d'attente pour que le serveur vous trouve deux compagnons de route. L'accès se fait via la carte
+                    céleste, et vous avez besoin de valider plusieurs missions du mode Histoire avant d'avoir la
+                    possibilité d'effectuer un Assaut.<br><br>
+
+                    Les Assauts sont un bon moyen de récupérer de l'équipement. Ils offrent également des jetons pour
+                    monter votre réputation envers Zavala, ce qui peut mener à de l'équipement légendaire.
+                </div>
+                <div class="data" id="Patrouilles">
+                    Cette activité est débloquée pendant la campagne par Cayde-6. Ce dernier vous demandera d'effectuer
+                    une quête, peut-être un peu longuette, mais qui vous permettra de débloquer les patrouilles sur
+                    toutes les planètes.<br><br>
+
+                    Les patrouilles sont de petites missions diverses et variées que vous pouvez activer via de petites
+                    balises un peu partout dans le monde. Elles consistent à zigouiller certains ennemis, à scanner un
+                    nombre d'objets définis ou encore à collecter certains objets.<br><br>
+
+                    Elles sont surtout utiles pour gagner de l'expérience et obtenir quelques objets lors de votre
+                    montée en niveau. Elles ne vous seront pas très utiles si vous êtes déjà un Gardien de haut niveau.
+                    Néanmoins, elles peuvent offrir des jetons de réputation et parfois un engramme.
+                </div>
+                <div class="data" id="BannièreDeFer">
+                    Ce mode de jeu, basé sur le PvP de l'Épreuve, a lieu mensuellement.
+                    Vous pouvez l'activer en parlant avec le Seigneur Saladin. Il reprend les bases du PvP, mais avec
+                    certains détails:<br><br>
+                    <ul>
+                        <li>Le combat se déroule en 4v4.</li>
+                        <li>La puissance n'entre pas en ligne de compte.</li>
+                        <li>Vous gagnez des jetons à échanger contre des engrammes de la Bannière de Fer.</li>
+                        <li>Chaque partie vous donne droit à des jetons. Si vous gagnez celle-ci, vous en recevrez plus.
+                        </li>
+                        <li>Vous pourrez suivre votre progression via des jalons quotidiens ainsi que "saisonniers".
+                        </li>
+                        <li>Récupérez des armures forgées par les Seigneurs de Fer.</li>
+                    </ul><br><br>
+                    Pour participer à la Bannière de Fer, il faut tout d'abord terminer le mode Histoire. La raison est
+                    simple : pour parler à Saladin, il faut avoir accès à la Tour. Saladin vous proposera l'accès à des
+                    parties rapides dans le programme de la Bannière de Fer.
+                </div>
+                <div class="data" id="SecteurOublie">
+                    Il s'agit de lieux accessibles aux joueurs qui aiment sortir des sentiers battus. Vous remarquez
+                    l'entrée d'une grotte qui n'est pas située sur le chemin classique de la campagne ? Alors vous avez
+                    une chance d'y trouver un Secteur oublié.
+                    <br><br>
+                    Ces zones sont souvent remplies de monstres, avec un petit boss de fin qui vous donnera accès à un
+                    coffre. Le sentiment d'avoir trouvé une zone cachée joue pour beaucoup dans le plaisir. Les Secteurs
+                    oubliés peuvent prendre de nombreuses formes différentes, n'hésitez donc jamais à ratisser les zones
+                    de jeu.
+                    <br><br>
+                    L'équipement récupéré est sympa, mais moins intéressant à haut niveau. Profitez-en donc pleinement
+                    lorsque vous effectuez la campagne solo ou que vous êtes sous les 265-270 de niveau de puissance.
+                </div>
+                <div class="data" id="NuitNoir">
+                    C'est une activité hebdomadaire, renouvelée pendant le reset du mardi.
+                    Il s'agit d'un Assaut, c'est-à-dire un donjon, qui présente des difficultés supplémentaires, Bungie
+                    lui appliquant généralement deux "mods". Certains mods peuvent par exemple empêcher la régénération
+                    de votre bouclier pendant les phases de combat.<br><br>
+
+                    La Nuit Noire existe en deux versions, Normale et Prestige. Il est conseillé d'avoir une puissance
+                    de 240 (Normal) à 300 (Prestige) pour s'y lancer, le premier étant accessible dès lors que vous avez
+                    terminé la campagne.<br><br>
+
+                    Pas besoin d'avoir un groupe déjà formé, le matchmaking vous proposera de rejoindre deux autres
+                    joueurs pour l'assaut. En plus des loots sur les mobs, vous recevrez un engramme brillant.
+                </div>
+                <div class="data" id="Raid">
+                    Le raid est une activité de très haut niveau, néanmoins accessible au commun
+                    des mortels au travers les Parties Guidées, qui permettent aux joueurs de trouver des groupes
+                    organisés. Le premier raid est le Léviathan, qui donne accès à des objets particulièrement puissant.
+                    Il existe en mode Normal et Prestige, ce dernier offrant simplement des bonus cosmétiques.<br><br>
+
+                    Pour vous rendre au Léviathan, prévoyez un niveau de puissance de 270 (Normal) et 300 (Prestige).
+                </div>
+            </div>
+        </div>
+    </main>
     <footer>
         <div>
             <span>Copyright 2021 &copy; Yovish MOONESAMY</span>
@@ -59,9 +207,9 @@
             <a href="https://github.com/yoyoking94"><i class="fab fa-github-square"></i></a>
         </div>
         <div>
-            <li><a id="en" href="#">Privacy Policy</a></li>
-            <li><a id="fr" href="#">Politique de confidentialité</a></li>
+            <li><a href="#">Politique de confidentialité</a></li>
         </div>
     </footer>
 </body>
+
 </html>
